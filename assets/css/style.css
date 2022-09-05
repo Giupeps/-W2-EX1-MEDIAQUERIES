@@ -241,3 +241,169 @@ footer {
 footer a {
   color: fuchsia;
 }
+
+/* MEDIAQUERY */
+
+@media screen and (min-width: 768px) {
+  body {
+    margin-inline: 2%;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  header {
+    padding-bottom: 6rem;
+  }
+  header div img {
+    float: left;
+    height: -1%;
+  }
+  header p {
+    text-align: right;
+  }
+  header li {
+    display: inline-block;
+    float: right;
+  }
+  main article iframe {
+    display: inline-block;
+    float: right;
+    width: 45%;
+    height: 16rem;
+  }
+  main article section {
+    display: inline-block;
+    float: left;
+    width: 45%;
+    border-radius: 15px;
+  }
+  aside div {
+    display: inline-block;
+    width: 31%;
+  }
+  aside div a,
+  aside div p {
+    margin: 0 auto;
+  }
+  table {
+    margin: 1.5rem auto;
+    max-width: 33;
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    margin-inline: 2%;
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  header div img {
+    float: left;
+    height: -1%;
+  }
+  header p {
+    text-align: right;
+  }
+  header li {
+    display: inline-block;
+    float: right;
+  }
+  main article iframe {
+    display: inline-block;
+    width: 44%;
+    height: 35rem;
+    float: right;
+  }
+  main article section {
+    display: inline-block;
+    float: left;
+    width: 44%;
+    height: 35rem;
+    border-radius: 15px;
+  }
+  aside div {
+    display: inline-block;
+    font-size: 2.7rem;
+    width: 32%;
+    margin-left: 0.5%;
+    height: 100%;
+  }
+  aside div a,
+  aside div p {
+    margin: 0 auto;
+  }
+  table {
+    margin: 1.5rem auto;
+    max-width: 33;
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    margin-inline: 2%;
+    font-size: 2.7rem;
+    line-height: 1.5;
+  }
+  header div img {
+    float: left;
+    height: 100%;
+  }
+  header p {
+    text-align: right;
+  }
+  header li {
+    display: inline-block;
+    float: right;
+  }
+  main article iframe {
+    display: inline-block;
+    width: 44%;
+    height: 35rem;
+    float: right;
+  }
+  main article section {
+    display: inline-block;
+    float: left;
+    width: 44%;
+    height: 35rem;
+    border-radius: 15px;
+  }
+  aside div {
+    display: inline-block;
+    width: 32%;
+    margin-left: 0.5%;
+    height: 100%;
+  }
+  aside div a,
+  aside div p {
+    margin: 0 auto;
+  }
+  table {
+    margin: 1.5rem auto;
+    max-width: 33;
+    margin-bottom: 2em;
+  }
+}
+
+@media print {
+  header {
+    display: none;
+  }
+  aside {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+
+  .social {
+    display: none;
+  }
+  .toTop {
+    display: none;
+  }
+  main {
+    box-shadow: none;
+  }
+}
