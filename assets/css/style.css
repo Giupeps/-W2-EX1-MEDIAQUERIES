@@ -406,4 +406,13 @@ footer a {
   main {
     box-shadow: none;
   }
+  iframe {
+    display: none;
+  }
+  button {
+    display: none;
+  }
+  section {
+    display: none;
+  }
 }
